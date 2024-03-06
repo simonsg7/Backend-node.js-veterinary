@@ -1,0 +1,22 @@
+{
+  "name": "backend-fullstack",
+  "version": "0.0.1",
+  "description": "Backend para nuestro sistema de reservas de citas",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simonsg7/Fullstack-veterinary.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Simon Serna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simonsg7/Fullstack-veterinary/issues"
+  },
+  "homepage": "https://github.com/simonsg7/Fullstack-veterinary#readme"
+}
