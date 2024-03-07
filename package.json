@@ -4,6 +4,7 @@
   "description": "Backend para nuestro sistema de reservas de citas",
   "main": "app.js",
   "scripts": {
+    "dev": "nodemon/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/simonsg7/Fullstack-veterinary/issues"
   },
-  "homepage": "https://github.com/simonsg7/Fullstack-veterinary#readme"
+  "homepage": "https://github.com/simonsg7/Fullstack-veterinary#readme",
+  "dependencies": {
+    "express": "^4.18.3",
+    "nodemon": "^3.1.0"
+  }
 }
