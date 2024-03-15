@@ -2,10 +2,10 @@
   "name": "backend-fullstack",
   "version": "0.0.1",
   "description": "Backend para nuestro sistema de reservas de citas",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "dev": "nodemon/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon/server.js",
+    "test": "npx jest"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,18 @@
   },
   "homepage": "https://github.com/simonsg7/Fullstack-veterinary#readme",
   "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.18.3",
-    "nodemon": "^3.1.0"
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^3.1.0",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
   }
 }
